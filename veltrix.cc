@@ -2703,7 +2703,7 @@
             Parent = WatermarkOuter;
         });
         local WatermarkStroke = Library:Create('UIStroke', {
-            Color = Color3.fromRGB(50, 255, 0);
+            Color = Color3.fromRGB(255, 255, 255);
             Thickness = 1.5;
             Parent = WatermarkInner;
         });
@@ -2999,7 +2999,7 @@
             Parent = Outer;
         });
         local Stroke = Library:Create('UIStroke', {
-            Color = Color3.fromRGB(50, 255, 0);
+            Color = Color3.fromRGB(255, 255, 255);
             Thickness = 1.5;
             Parent = Inner;
         });
