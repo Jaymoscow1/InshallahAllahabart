@@ -2703,15 +2703,15 @@
             Parent = WatermarkOuter;
         });
         local WatermarkStroke = Library:Create('UIStroke', {
-            Color = Color3.fromRGB(255, 255, 255);
+            Color = Color3.fromRGB(0, 0, 0);
             Thickness = 1.5;
             Parent = WatermarkInner;
         });
 
         local WatermarkGradient = Library:Create('UIGradient', {
             Color = ColorSequence.new({
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255));
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255));
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0));
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0));
             });
             Rotation = 0;
             Parent = WatermarkStroke;
@@ -2999,15 +2999,15 @@
             Parent = Outer;
         });
         local Stroke = Library:Create('UIStroke', {
-            Color = Color3.fromRGB(255, 255, 255);
+            Color = Color3.fromRGB(0, 0, 0);
             Thickness = 1.5;
             Parent = Inner;
         });
 
         local StrokeGradient = Library:Create('UIGradient', {
             Color = ColorSequence.new({
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 255, 255));
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255));
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0));
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0));
             });
             Rotation = 0;
             Parent = Stroke;
