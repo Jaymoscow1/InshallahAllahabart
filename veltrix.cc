@@ -2710,8 +2710,8 @@
 
         local WatermarkGradient = Library:Create('UIGradient', {
             Color = ColorSequence.new({
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(217, 161, 138));
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(217, 161, 138));
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0));
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0));
             });
             Rotation = 0;
             Parent = WatermarkStroke;
@@ -3006,8 +3006,8 @@
 
         local StrokeGradient = Library:Create('UIGradient', {
             Color = ColorSequence.new({
-                ColorSequenceKeypoint.new(0, Color3.fromRGB(217, 161, 138));
-                ColorSequenceKeypoint.new(1, Color3.fromRGB(217, 161, 138));
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 0, 0));
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 0, 0));
             });
             Rotation = 0;
             Parent = Stroke;
